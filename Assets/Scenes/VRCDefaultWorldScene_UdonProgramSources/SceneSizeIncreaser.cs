@@ -14,9 +14,15 @@ public class SceneSizeIncreaser : Prop
     [SerializeField]
     private Transform _scalableWorld; //The world which size increases
 
-    public override void OnPickupUseDown()
+    /*public override void OnPickupUseDown()
     {
         base.OnPickupUseDown();
+        _scalableWorld.localScale = new Vector3(_targetScale, _targetScale, _targetScale);
+    }*/
+
+    public override void OnPickup()
+    {
+        base.OnPickup();
         _scalableWorld.localScale = new Vector3(_targetScale, _targetScale, _targetScale);
     }
 }
