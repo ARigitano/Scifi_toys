@@ -14,6 +14,9 @@ public class SceneSizeIncreaser : Prop
     [SerializeField]
     private Transform _scalableWorld; //The world which size increases
 
+    [SerializeField]
+    private Prop[] _propsEnvironement; //Props that need their environments to be activated
+
     /*public override void OnPickupUseDown()
     {
         base.OnPickupUseDown();
@@ -23,6 +26,17 @@ public class SceneSizeIncreaser : Prop
     public override void OnPickup()
     {
         base.OnPickup();
+        SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, "ScaleWorld");
+    }
+
+    //Makes the world giant when picked up
+    public void ScaleWorld()
+    {
         _scalableWorld.localScale = new Vector3(_targetScale, _targetScale, _targetScale);
+
+        foreach(Prop prop in _propsEnvironement)
+        {
+            prop.EnableEnvironment();
+        }
     }
 }
