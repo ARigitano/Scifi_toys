@@ -12,8 +12,6 @@ public class Snapzone : UdonSharpBehaviour
         {
             other.gameObject.GetComponent<Prop>().isSnapped = true;
             other.gameObject.GetComponent<Prop>().ActivateNetwork();
-            
-            Debug.Log("snapped");
         }
     }
 }

@@ -13,6 +13,7 @@ public class SceneSizeIncreaser : Prop
     private float _targetScale = 100f; //Scale of the world after object is used
     [SerializeField]
     private Transform _scalableWorld; //The world which size increases
+    private bool _hasResized = false; //Was the prop used to resize the world?
 
     [SerializeField]
     private Prop[] _propsEnvironement; //Props that need their environments to be activated
@@ -32,11 +33,16 @@ public class SceneSizeIncreaser : Prop
     //Makes the world giant when picked up
     public void ScaleWorld()
     {
-        _scalableWorld.localScale = new Vector3(_targetScale, _targetScale, _targetScale);
-
-        foreach(Prop prop in _propsEnvironement)
+        if (!_hasResized)
         {
-            prop.EnableEnvironment();
+            _scalableWorld.localScale = new Vector3(_targetScale, _targetScale, _targetScale);
+
+            foreach (Prop prop in _propsEnvironement)
+            {
+                prop.EnableEnvironment();
+            }
+
+            _hasResized = true;
         }
     }
 }
