@@ -18,6 +18,10 @@ public class Prop : UdonSharpBehaviour
     [SerializeField]
     private GameObject _environment; //An environment surrounding the prop.
 
+    [SerializeField]
+    private SceneSizeIncreaserManager _sizeManager; //Reference to this scene's size scaler.
+    private bool _isScaleCounted = false; //Has this prop been already counted for the world scaling event?
+
     public override void OnDrop()
     {
         base.OnDrop();
@@ -37,6 +41,13 @@ public class Prop : UdonSharpBehaviour
         {
             _isActivated = true;
             transform.rotation = Quaternion.LookRotation(Vector3.forward);
+
+            if (_sizeManager != null && !_isScaleCounted)
+            {
+                _sizeManager.ScaleWorldActivate();
+                _isScaleCounted = true;
+            }
+
             //_pickup.enabled = false; Causes a bug for now
         }
     }
