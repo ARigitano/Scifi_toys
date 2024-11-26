@@ -9,17 +9,42 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     private bool _isUsed = false; //Has the object already been used to increase the size of the room?
 
     [SerializeField]
-    private float _targetScale = 100f; //Scale of the world after object is used
+    private float _targetScale = 100f; //Scale of the world after object is used.
     [SerializeField]
     private Transform _scalableWorld; //The world which size increases
-    private bool _hasResized = false; //Was the prop used to resize the world?
+    private bool _isScaling = false; //Is the world scaling?
+    private bool _hasScaled = false; //Has the world finished scaling?
+    [SerializeField]
+    private float _scaleSpeed = 1f; //The speed at which the world scales.
 
     [SerializeField]
-    private Prop[] _propsEnvironement; //Props that need their environments to be activated
+    private Prop[] _propsEnvironement; //Props that need their environments to be activated.
 
     private int _nbProps = 0; //Number of props that have been put on snapping surface.
     [SerializeField]
     private int _nbPropsActivate = 4; //Number of props that need to be put on snapping surface to activate the world scaler.
+
+    private void Update()
+    {
+        if (_isScaling && !_hasScaled)
+        {
+            float _scalingNb = Time.deltaTime * _scaleSpeed;
+
+            if (_scalableWorld.localScale.x <= _targetScale)
+            {   
+                _scalableWorld.localScale += new Vector3(_scalingNb, _scalingNb, _scalingNb);
+            }
+            else
+            {
+                foreach (Prop prop in _propsEnvironement)
+                {
+                    prop.EnableEnvironment();
+                }
+
+                _hasScaled = true;
+            }
+        }
+    }
 
 
     //Activates the world scaling
@@ -38,7 +63,9 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     //Makes the world giant when picked up
     public void ScaleWorld()
     {
-        if (!_hasResized)
+        _isScaling = true;
+
+        /*if (!_hasScaled)
         {
             _scalableWorld.localScale = new Vector3(_targetScale, _targetScale, _targetScale);
 
@@ -47,7 +74,7 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
                 prop.EnableEnvironment();
             }
 
-            _hasResized = true;
-        }
+            _hasScaled = true;
+        }*/
     }
 }
