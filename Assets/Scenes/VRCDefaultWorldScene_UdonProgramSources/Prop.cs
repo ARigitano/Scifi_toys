@@ -56,6 +56,11 @@ public class Prop : UdonSharpBehaviour
     public void EnableEnvironment()
     {
         if (_environment != null)
+        {
+            VRCPickup pickup = this.gameObject.GetComponent<VRCPickup>();
+            pickup.pickupable = false;
             _environment.SetActive(true);
+        }
+            
     }
 }
