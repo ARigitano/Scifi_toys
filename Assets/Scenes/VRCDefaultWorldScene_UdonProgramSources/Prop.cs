@@ -22,9 +22,20 @@ public class Prop : UdonSharpBehaviour
     private SceneSizeIncreaserManager _sizeManager; //Reference to this scene's size scaler.
     private bool _isScaleCounted = false; //Has this prop been already counted for the world scaling event?
 
+    [SerializeField]
+    private GameObject _carpetHighlight; //Highlight object that shows where to drop the prop.
+
+    public override void OnPickup()
+    {
+        base.OnPickup();
+        _carpetHighlight.SetActive(true);
+    }
+
+
     public override void OnDrop()
     {
         base.OnDrop();
+        _carpetHighlight.SetActive(false);
         _isDropped = true;
     }
 

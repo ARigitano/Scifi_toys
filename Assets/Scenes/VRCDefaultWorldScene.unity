@@ -5273,6 +5273,7 @@ MonoBehaviour:
   isSnapped: 0
   _environment: {fileID: 355494743}
   _sizeManager: {fileID: 1967958669}
+  _carpetHighlight: {fileID: 1155946273}
 --- !u!114 &648139362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8726,6 +8727,7 @@ MonoBehaviour:
   isSnapped: 0
   _environment: {fileID: 1656218642}
   _sizeManager: {fileID: 1967958669}
+  _carpetHighlight: {fileID: 1155946273}
 --- !u!114 &965473703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15871,6 +15873,7 @@ MonoBehaviour:
   isSnapped: 0
   _environment: {fileID: 946587667}
   _sizeManager: {fileID: 1967958669}
+  _carpetHighlight: {fileID: 1155946273}
 --- !u!114 &1680299639
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19634,6 +19637,7 @@ MonoBehaviour:
   isSnapped: 0
   _environment: {fileID: 961469513}
   _sizeManager: {fileID: 1967958669}
+  _carpetHighlight: {fileID: 1155946273}
 --- !u!114 &2039648607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21679,6 +21683,7 @@ MonoBehaviour:
   isSnapped: 0
   _environment: {fileID: 806304949}
   _sizeManager: {fileID: 1967958669}
+  _carpetHighlight: {fileID: 1155946273}
 --- !u!65 &6784089490982384687
 BoxCollider:
   m_ObjectHideFlags: 0
