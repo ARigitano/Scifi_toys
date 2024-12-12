@@ -263,6 +263,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: farm-flower-bed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -297,6 +302,10 @@ PrefabInstance:
     - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_Name
       value: hay-cube (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4182302196714794, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_LocalPosition.x
@@ -636,6 +645,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rubble-apocalypse-e
       objectReference: {fileID: 0}
+    - target: {fileID: 6492014867179219726, guid: 30a29a52b61d92f48835f98147ea48df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6258082574141789788, guid: 30a29a52b61d92f48835f98147ea48df, type: 3}
     m_RemovedGameObjects: []
@@ -861,6 +875,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coffee-cup-paper
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571072184365563375, guid: f0bc4a5d03609da4ea45401c92510922,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6770597175041613195, guid: f0bc4a5d03609da4ea45401c92510922, type: 3}
@@ -1140,6 +1159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: horse (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 189818, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 440268, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.75
@@ -1286,6 +1309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.11
@@ -1349,6 +1376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pot-lid-big
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562314181658538415, guid: e05704f6cfeabbb419041e8d69b6ad7e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4189527924604906261, guid: e05704f6cfeabbb419041e8d69b6ad7e,
         type: 3}
@@ -1777,6 +1809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rubble-apocalypse-c
       objectReference: {fileID: 0}
+    - target: {fileID: 2828958883439442131, guid: c23fee1829d91584daf10e745f75db29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3173256189847249513, guid: c23fee1829d91584daf10e745f75db29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1920,6 +1957,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: wheat-flour (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943162572862118130, guid: 4a0f97920b7118844bbb49e4289602c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4943162572862145746, guid: 4a0f97920b7118844bbb49e4289602c2,
         type: 3}
@@ -2243,6 +2285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: scarecrow
       objectReference: {fileID: 0}
+    - target: {fileID: 1501548150672794, guid: ff25276b93da94732865d8c9e9b63820, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4807881765291830, guid: ff25276b93da94732865d8c9e9b63820, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2305,6 +2351,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2426,6 +2476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-dining-circle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153909339826651897, guid: de12f1e5e37115042ab5b05e27fd2530,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8818982635841509443, guid: de12f1e5e37115042ab5b05e27fd2530,
         type: 3}
@@ -2573,6 +2628,10 @@ PrefabInstance:
     - target: {fileID: 1536129071639756, guid: 4bc713870f2b144fa93263776d47bccc, type: 3}
       propertyPath: m_Name
       value: hay-pile
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536129071639756, guid: 4bc713870f2b144fa93263776d47bccc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4834514381054620, guid: 4bc713870f2b144fa93263776d47bccc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2973,6 +3032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hay-cube (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4182302196714794, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.24
@@ -3262,6 +3325,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: farm-flower-bed
       objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3335,6 +3403,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-round-wooden-broken (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999976745257433593, guid: 934ce79145e004044ac30d25ed629316,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3817,6 +3890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pan
       objectReference: {fileID: 0}
+    - target: {fileID: 6323407276188773432, guid: 5fd8f5b69996ca14b82690d7f1f455bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6668302480715708034, guid: 5fd8f5b69996ca14b82690d7f1f455bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4294,6 +4372,10 @@ PrefabInstance:
     - target: {fileID: 189818, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
       propertyPath: m_Name
       value: horse (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189818, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 440268, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5091,6 +5173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pc-desktop-gaming
       objectReference: {fileID: 0}
+    - target: {fileID: 3914396329241940934, guid: 5ac287affbd844d4fa29eeb873ffa4d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4402666745941150076, guid: 5ac287affbd844d4fa29eeb873ffa4d1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5158,6 +5245,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5440,6 +5531,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: table-dining-circle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8153909339826651897, guid: de12f1e5e37115042ab5b05e27fd2530,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8818982635841509443, guid: de12f1e5e37115042ab5b05e27fd2530,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -5541,6 +5637,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-dining-circle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153909339826651897, guid: de12f1e5e37115042ab5b05e27fd2530,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8818982635841509443, guid: de12f1e5e37115042ab5b05e27fd2530,
         type: 3}
@@ -5703,6 +5804,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cup-plastic-red
       objectReference: {fileID: 0}
+    - target: {fileID: 1097896932851023601, guid: 0599f9b1140ad674fae82670952e5b0c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 287643925993112485, guid: 0599f9b1140ad674fae82670952e5b0c, type: 3}
     m_RemovedGameObjects: []
@@ -5777,6 +5883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stand-cotton-small
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062490441320101961, guid: 581f51df9708f18468e10e49da4401c7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8143923040637207839, guid: 581f51df9708f18468e10e49da4401c7, type: 3}
@@ -6081,6 +6192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rubble-apocalypse-a
       objectReference: {fileID: 0}
+    - target: {fileID: 240152255750888875, guid: e34fea8030a904d478de2ebb129caa35,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 585153048091428625, guid: e34fea8030a904d478de2ebb129caa35,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6149,6 +6265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hay-cube (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4182302196714794, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.018
@@ -6207,6 +6327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: apple-core (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736419520085446667, guid: 6ee22d10094735049a4b3f4d1d26d0ad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6736419520085543979, guid: 6ee22d10094735049a4b3f4d1d26d0ad,
         type: 3}
@@ -6276,6 +6401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: balloons-hearts-lots
+      objectReference: {fileID: 0}
+    - target: {fileID: 5080463044216065184, guid: 73dc1ef1bcaf7e64cb741cbb368c3522,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5605502230125860378, guid: 73dc1ef1bcaf7e64cb741cbb368c3522,
         type: 3}
@@ -6421,6 +6551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: popcorn
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786425554820189424, guid: ac36c20d8e4738346a7256af9d5f3cf2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8443913592657801636, guid: ac36c20d8e4738346a7256af9d5f3cf2, type: 3}
@@ -6837,6 +6972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: mattress-small
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216452609795933867, guid: 2885b57b0a661a34eb5f2a644990c309,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1993517490827402257, guid: 2885b57b0a661a34eb5f2a644990c309,
         type: 3}
@@ -7539,6 +7679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.290003
@@ -7721,6 +7865,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-round-wooden-broken
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999976745257433593, guid: 934ce79145e004044ac30d25ed629316,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8222,6 +8371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: farm-flower-bed (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8342,6 +8496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-dining-circle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153909339826651897, guid: de12f1e5e37115042ab5b05e27fd2530,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8818982635841509443, guid: de12f1e5e37115042ab5b05e27fd2530,
         type: 3}
@@ -8917,6 +9076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.47
@@ -9318,6 +9481,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: beer
       objectReference: {fileID: 0}
+    - target: {fileID: 1942829353459336460, guid: 267ea1819cefbf64193527830effafe3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7521616483769655469, guid: 267ea1819cefbf64193527830effafe3, type: 3}
     m_RemovedGameObjects: []
@@ -9505,6 +9673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.88
@@ -9568,6 +9740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hay-cube
       objectReference: {fileID: 0}
+    - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4182302196714794, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.018
@@ -9626,6 +9802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.47
@@ -9682,6 +9862,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9810,6 +9994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hay-cube (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4182302196714794, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.24
@@ -9885,6 +10073,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10192,6 +10384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: apple-core (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736419520085446667, guid: 6ee22d10094735049a4b3f4d1d26d0ad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6736419520085543979, guid: 6ee22d10094735049a4b3f4d1d26d0ad,
         type: 3}
@@ -10552,6 +10749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hay-cube (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4182302196714794, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.018
@@ -10616,6 +10817,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: megaphone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727508561494876696, guid: 72b2c530a0ed36648919c409c9e61515,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3727508561495244344, guid: 72b2c530a0ed36648919c409c9e61515,
         type: 3}
@@ -10692,6 +10898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rubble-apocalypse-b
       objectReference: {fileID: 0}
+    - target: {fileID: 5868199628896351275, guid: 66cc5273d792a7941ab25044d5811371,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6502028892986044049, guid: 66cc5273d792a7941ab25044d5811371,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10767,6 +10978,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rubble-apocalypse-d
       objectReference: {fileID: 0}
+    - target: {fileID: 6097189183085335185, guid: 5ffc1869012301f47a1218f3bdbc263f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6905779566402832427, guid: 5ffc1869012301f47a1218f3bdbc263f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10834,6 +11050,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10961,6 +11181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-dining-circle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153909339826651897, guid: de12f1e5e37115042ab5b05e27fd2530,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8818982635841509443, guid: de12f1e5e37115042ab5b05e27fd2530,
         type: 3}
@@ -11179,6 +11404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cabinet-kitchen-drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626431225939791757, guid: 413ea43e3c0ac5d4d847e968ea011f25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4114173843570349367, guid: 413ea43e3c0ac5d4d847e968ea011f25,
         type: 3}
@@ -11717,6 +11947,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: farm-flower-bed (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11739,6 +11974,10 @@ PrefabInstance:
     - target: {fileID: 1917552956140080, guid: 7b478ebe14e0c405da08645b6024896e, type: 3}
       propertyPath: m_Name
       value: anchor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917552956140080, guid: 7b478ebe14e0c405da08645b6024896e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4095125984832722, guid: 7b478ebe14e0c405da08645b6024896e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11797,6 +12036,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12028,6 +12271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: horse (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 189818, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 440268, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.75
@@ -12149,6 +12396,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bucket-milk
       objectReference: {fileID: 0}
+    - target: {fileID: 2490712139020768824, guid: 07bdbb6e063692e439fa340673d04d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7845076012886895356, guid: 07bdbb6e063692e439fa340673d04d49, type: 3}
     m_RemovedGameObjects: []
@@ -12244,6 +12496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stand-cotton-small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062490441320101961, guid: 581f51df9708f18468e10e49da4401c7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8143923040637207839, guid: 581f51df9708f18468e10e49da4401c7, type: 3}
@@ -12396,6 +12653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bike-apocalypse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2816624063914100330, guid: 0792c654ba5af974aa17b4066be53a8e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3196843273941064912, guid: 0792c654ba5af974aa17b4066be53a8e,
         type: 3}
@@ -12574,6 +12836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.1
@@ -12730,6 +12996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire
       objectReference: {fileID: 0}
+    - target: {fileID: 1962065186221128, guid: 299ec837aa8cf492ba50313ca204c569, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4653328658019758, guid: 299ec837aa8cf492ba50313ca204c569, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.6
@@ -12839,6 +13109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: farm-flower-bed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12862,6 +13137,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: washing-machine-broken
+      objectReference: {fileID: 0}
+    - target: {fileID: 117914924610220064, guid: 1ee3a2f2f1af1964292917ad532688b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 786223739479763610, guid: 1ee3a2f2f1af1964292917ad532688b1,
         type: 3}
@@ -12931,6 +13211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-dining-circle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153909339826651897, guid: de12f1e5e37115042ab5b05e27fd2530,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8818982635841509443, guid: de12f1e5e37115042ab5b05e27fd2530,
         type: 3}
@@ -13137,6 +13422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coffee-machine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217671025392308296, guid: 460698866a9534f4aa6ef44a982bc591,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6702001067289152242, guid: 460698866a9534f4aa6ef44a982bc591,
         type: 3}
@@ -14233,7 +14523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '02/12/24 12h36
+  m_text: '03/12/24 16h46
 
 
 '
@@ -14468,6 +14758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.36
@@ -14582,6 +14876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.100003
@@ -14644,6 +14942,10 @@ PrefabInstance:
     - target: {fileID: 189818, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
       propertyPath: m_Name
       value: horse
+      objectReference: {fileID: 0}
+    - target: {fileID: 189818, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 440268, guid: 1aa5cc5b29638654085e47f13564030b, type: 3}
       propertyPath: m_LocalScale.x
@@ -14726,6 +15028,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14837,6 +15143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: wheat-flour
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943162572862118130, guid: 4a0f97920b7118844bbb49e4289602c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4943162572862145746, guid: 4a0f97920b7118844bbb49e4289602c2,
         type: 3}
@@ -14957,6 +15268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shopping-trolley-destroyed
       objectReference: {fileID: 0}
+    - target: {fileID: 1136179594745631784, guid: 43231327ba74eb7418694605f9db074c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 217840207566825734, guid: 43231327ba74eb7418694605f9db074c, type: 3}
     m_RemovedGameObjects: []
@@ -15061,6 +15377,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15170,6 +15490,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: farm-flower-bed (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15192,6 +15517,10 @@ PrefabInstance:
     - target: {fileID: 1865370545904804, guid: e0d8b620f12654e1c9dfd5a93c19d80f, type: 3}
       propertyPath: m_Name
       value: timber
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865370545904804, guid: e0d8b620f12654e1c9dfd5a93c19d80f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4637636004482378, guid: e0d8b620f12654e1c9dfd5a93c19d80f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15375,6 +15704,10 @@ PrefabInstance:
     - target: {fileID: 1320194085369078, guid: 5d7f766673b764c9db40372120c90666, type: 3}
       propertyPath: m_Name
       value: pizza-box
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320194085369078, guid: 5d7f766673b764c9db40372120c90666, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4444543403730920, guid: 5d7f766673b764c9db40372120c90666, type: 3}
       propertyPath: m_LocalScale.x
@@ -15932,6 +16265,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple-core
       objectReference: {fileID: 0}
+    - target: {fileID: 6736419520085446667, guid: 6ee22d10094735049a4b3f4d1d26d0ad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6736419520085543979, guid: 6ee22d10094735049a4b3f4d1d26d0ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16069,6 +16407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.620001
@@ -16177,6 +16519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: farm-flower-bed (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16251,6 +16598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: camera-dslr
       objectReference: {fileID: 0}
+    - target: {fileID: 5748751193369177288, guid: f0f10679bc085d440a0598b3657e4485,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 329837447562424756, guid: f0f10679bc085d440a0598b3657e4485, type: 3}
     m_RemovedGameObjects: []
@@ -16268,6 +16620,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16481,6 +16837,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hay-sheaf
       objectReference: {fileID: 0}
+    - target: {fileID: 5578776281578633992, guid: dbc6a0bf5de2e4046ada5abcd813e4bb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7825739648104286136, guid: dbc6a0bf5de2e4046ada5abcd813e4bb, type: 3}
     m_RemovedGameObjects: []
@@ -16505,6 +16866,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-dining-circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153909339826651897, guid: de12f1e5e37115042ab5b05e27fd2530,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8818982635841509443, guid: de12f1e5e37115042ab5b05e27fd2530,
         type: 3}
@@ -16706,6 +17072,10 @@ PrefabInstance:
     - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_Name
       value: hay-cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867452316421566, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4182302196714794, guid: 62b290ae36c1b4dfe99c7f8c4498af69, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17017,6 +17387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: haystack
       objectReference: {fileID: 0}
+    - target: {fileID: 1937322478669794, guid: cf55ea1dc606b45a0a565867cedaa682, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4837448877781760, guid: cf55ea1dc606b45a0a565867cedaa682, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.62
@@ -17287,6 +17661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: television-old
       objectReference: {fileID: 0}
+    - target: {fileID: 5962108539541799720, guid: f7ed959805216424087925ba3859c726,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7064830618983896584, guid: f7ed959805216424087925ba3859c726, type: 3}
     - {fileID: 5962108539532423400, guid: f7ed959805216424087925ba3859c726, type: 3}
@@ -17364,6 +17743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: lamp-apocalypse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918653667702277432, guid: bc7c7196782f7ce4d9778e25ae8bb6b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6442566992292831106, guid: bc7c7196782f7ce4d9778e25ae8bb6b1,
         type: 3}
@@ -17619,6 +18003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: wheat-flour (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4943162572862118130, guid: 4a0f97920b7118844bbb49e4289602c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4943162572862145746, guid: 4a0f97920b7118844bbb49e4289602c2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17692,6 +18081,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17800,6 +18193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: farm-flower-bed (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17937,6 +18335,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18183,6 +18585,10 @@ PrefabInstance:
     - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_Name
       value: apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19728,6 +20134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1846160755511594, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4606863368001060, guid: 5f3499b7ccca7438db0396f05573acae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.590001
@@ -20320,6 +20730,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: vr-headset
       objectReference: {fileID: 0}
+    - target: {fileID: 5497432634604406857, guid: f683cf6d52d6063428ab3257826c51ec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6357054820640690420, guid: f683cf6d52d6063428ab3257826c51ec, type: 3}
     m_RemovedGameObjects: []
@@ -20464,6 +20879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: farm-flower-bed (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8723730200069982568, guid: 459fba7dc47f81f479d256ba01cfd883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20499,6 +20919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table-dining-circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153909339826651897, guid: de12f1e5e37115042ab5b05e27fd2530,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8818982635841509443, guid: de12f1e5e37115042ab5b05e27fd2530,
         type: 3}
@@ -21758,29 +22183,29 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
-  - {fileID: 2100000, guid: 7cb448676d0c14844b946e9ea84f77cd, type: 2}
-  - {fileID: 2100000, guid: 1b91b8f78d66dbb4eae6920adadf1a3d, type: 2}
+  - {fileID: 2100000, guid: 5fe0aebe85b574b4a94e74712f0aa915, type: 2}
+  - {fileID: 2100000, guid: c48ed0c67054fc24da0ac1cced5a308c, type: 2}
+  - {fileID: 2100000, guid: 87ff71ffc286b91449d2296928632aed, type: 2}
+  - {fileID: 2100000, guid: f025c5db938b349a8b450e845b67e20a, type: 2}
   - {fileID: 2100000, guid: d7141515c3e72154d9d911edd5cf2538, type: 2}
   - {fileID: 2100000, guid: e951552e45e3e6244b7a614e5e7773c4, type: 2}
+  - {fileID: 2100000, guid: 7cb448676d0c14844b946e9ea84f77cd, type: 2}
   - {fileID: 2100000, guid: 898d619440579f74db074145baf2b8bf, type: 2}
   - {fileID: 2100000, guid: d72a7f1160ed65f4390a30c4fb7b65e3, type: 2}
   - {fileID: 2100000, guid: 2356b9083cf422e4898415caa4abe0ce, type: 2}
-  - {fileID: 2100000, guid: 1f98a0149855cac4ab0875cf4645b043, type: 2}
-  - {fileID: 2100000, guid: 6a22127092d3e80438705f102d03d98f, type: 2}
-  - {fileID: 2100000, guid: 833aaf2b11bfbc14096849492ed3d4e6, type: 2}
-  - {fileID: 2100000, guid: 579080bda9f89ee42a5447d6d997e266, type: 2}
-  - {fileID: 2100000, guid: 5fe0aebe85b574b4a94e74712f0aa915, type: 2}
-  - {fileID: 2100000, guid: c48ed0c67054fc24da0ac1cced5a308c, type: 2}
-  - {fileID: 2100000, guid: ffce2a7e1519d465684f3f97da456fa9, type: 2}
-  - {fileID: 2100000, guid: 66c05709e04ed42a3a537ad26aca9cb8, type: 2}
   - {fileID: 2100000, guid: 00a2bb1196dce1b47850f5fd53254903, type: 2}
+  - {fileID: 2100000, guid: 1b91b8f78d66dbb4eae6920adadf1a3d, type: 2}
+  - {fileID: 2100000, guid: 66c05709e04ed42a3a537ad26aca9cb8, type: 2}
   - {fileID: 2100000, guid: 2a9bcab9060d28d468fc3c4d93775e7d, type: 2}
+  - {fileID: 2100000, guid: ffce2a7e1519d465684f3f97da456fa9, type: 2}
   - {fileID: 2100000, guid: 11a8c080607cf47c299aff53087e0334, type: 2}
   - {fileID: 2100000, guid: 700ae469e5be9ac4095d29b97116027a, type: 2}
   - {fileID: 2100000, guid: 12ca79d1906ac624994fa91e85880fb8, type: 2}
   - {fileID: 2100000, guid: 48b31daa83ddb854fadd9402702394e4, type: 2}
-  - {fileID: 2100000, guid: 87ff71ffc286b91449d2296928632aed, type: 2}
-  - {fileID: 2100000, guid: f025c5db938b349a8b450e845b67e20a, type: 2}
+  - {fileID: 2100000, guid: 1f98a0149855cac4ab0875cf4645b043, type: 2}
+  - {fileID: 2100000, guid: 6a22127092d3e80438705f102d03d98f, type: 2}
+  - {fileID: 2100000, guid: 833aaf2b11bfbc14096849492ed3d4e6, type: 2}
+  - {fileID: 2100000, guid: 579080bda9f89ee42a5447d6d997e266, type: 2}
   - {fileID: 2100000, guid: d1c67a1ef08201d4dbff075a39fc0316, type: 2}
   - {fileID: 2100000, guid: 88453bfb5a1cea94f983ff4410d6aa49, type: 2}
   - {fileID: 2100000, guid: fc99e40760b6af7419ce2533215cbbef, type: 2}
@@ -21864,16 +22289,24 @@ MonoBehaviour:
     ID: 12
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1016944561}
+  - gameObject: {fileID: 1972108252}
     ID: 13
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1950797354}
+  - gameObject: {fileID: 1132845101}
     ID: 14
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1967958666}
+  - gameObject: {fileID: 1016944561}
     ID: 15
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 1950797354}
+    ID: 16
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 1967958666}
+    ID: 17
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
   - gameObject: {fileID: 770498974}
@@ -21882,53 +22315,50 @@ MonoBehaviour:
     - VRC.SDK3.Components.VRCPickup
     - VRC.Udon.UdonBehaviour
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 352044803}
+  - gameObject: {fileID: 472689496505123284}
+    ID: 19
+    SerializedTypeNames:
+    - VRC.SDK3.Components.VRCPickup
+    - VRC.Udon.UdonBehaviour
+    - VRC.SDK3.Components.VRCObjectSync
+  - gameObject: {fileID: 965473699}
+    ID: 20
+    SerializedTypeNames:
+    - VRC.SDK3.Components.VRCPickup
+    - VRC.Udon.UdonBehaviour
+    - VRC.SDK3.Components.VRCObjectSync
+  - gameObject: {fileID: 648139358}
+    ID: 21
+    SerializedTypeNames:
+    - VRC.SDK3.Components.VRCPickup
+    - VRC.Udon.UdonBehaviour
+    - VRC.SDK3.Components.VRCObjectSync
+  - gameObject: {fileID: 2039648603}
     ID: 22
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.Udon.UdonBehaviour
+    - VRC.SDK3.Components.VRCObjectSync
+  - gameObject: {fileID: 352044803}
+    ID: 23
+    SerializedTypeNames:
+    - VRC.SDK3.Components.VRCPickup
+    - VRC.SDK3.Components.VRCObjectSync
   - gameObject: {fileID: 855140424}
     ID: 24
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
-    - VRC.Udon.UdonBehaviour
+    - VRC.SDK3.Components.VRCObjectSync
   - gameObject: {fileID: 1423788987}
     ID: 25
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
+    - VRC.SDK3.Components.VRCObjectSync
   - gameObject: {fileID: 1906533041}
     ID: 26
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 472689496505123284}
-    ID: 27
-    SerializedTypeNames:
-    - VRC.SDK3.Components.VRCPickup
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 965473699}
-    ID: 28
-    SerializedTypeNames:
-    - VRC.SDK3.Components.VRCPickup
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 648139358}
-    ID: 29
-    SerializedTypeNames:
-    - VRC.SDK3.Components.VRCPickup
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 2039648603}
-    ID: 30
-    SerializedTypeNames:
-    - VRC.SDK3.Components.VRCPickup
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1972108252}
-    ID: 31
-    SerializedTypeNames:
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1132845101}
-    ID: 32
-    SerializedTypeNames:
-    - VRC.Udon.UdonBehaviour
+    - VRC.SDK3.Components.VRCObjectSync
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   NavigationAreas: []
