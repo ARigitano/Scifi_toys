@@ -19,6 +19,8 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
 
     [SerializeField]
     private Prop[] _propsEnvironement; //Props that need their environments to be activated.
+    [SerializeField]
+    private GameObject _tools; //The tools that will fall from the sky.
 
     private int _nbProps = 0; //Number of props that have been put on snapping surface.
     [SerializeField]
@@ -41,6 +43,8 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
                     prop.EnableEnvironment();
                 }
 
+                _tools.SetActive(true);
+
                 _hasScaled = true;
             }
         }
@@ -55,8 +59,6 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
         if (_nbProps >= _nbPropsActivate)
         {
             SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, "ScaleWorld");
-            Debug.Log(_nbProps + " " + _nbPropsActivate);
-            Debug.Log(_nbProps >= _nbPropsActivate);
         }
     }
 
