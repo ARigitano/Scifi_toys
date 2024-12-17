@@ -64,22 +64,22 @@ public class Prop : UdonSharpBehaviour
     }
 
     //Enables the environment for this prop
-    public void EnableEnvironment()
+    public virtual void EnableEnvironment()
     {
         if (_environment != null)
         {
-            VRCPickup pickup = this.gameObject.GetComponent<VRCPickup>();
-            pickup.pickupable = false;
-
-            //Replace by layer based collisions?
-            /*Rigidbody rb = this.gameObject.GetComponent<Rigidbody>();
-            rb.isKinematic = true;
-
-            BoxCollider collider = this.gameObject.GetComponent<BoxCollider>();
-            collider.enabled = false;*/
-
             _environment.SetActive(true);
         }
-            
+
+        VRCPickup pickup = this.gameObject.GetComponent<VRCPickup>();
+        pickup.pickupable = false;
+
+        //Replace by layer based collisions?
+        /*Rigidbody rb = this.gameObject.GetComponent<Rigidbody>();
+        rb.isKinematic = true;
+
+        BoxCollider collider = this.gameObject.GetComponent<BoxCollider>();
+        collider.enabled = false;*/
+
     }
 }
