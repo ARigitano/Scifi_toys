@@ -17,6 +17,8 @@ public class Prop : UdonSharpBehaviour
 
     [SerializeField]
     private GameObject _environment; //An environment surrounding the prop.
+    [SerializeField]
+    private GameObject _base; //A collider base for buildings.
 
     [SerializeField]
     private SceneSizeIncreaserManager _sizeManager; //Reference to this scene's size scaler.
@@ -74,12 +76,13 @@ public class Prop : UdonSharpBehaviour
         VRCPickup pickup = this.gameObject.GetComponent<VRCPickup>();
         pickup.pickupable = false;
 
-        //Replace by layer based collisions?
-        /*Rigidbody rb = this.gameObject.GetComponent<Rigidbody>();
+        _base.SetActive(true);
+
+        Rigidbody rb = this.gameObject.GetComponent<Rigidbody>();
         rb.isKinematic = true;
 
         BoxCollider collider = this.gameObject.GetComponent<BoxCollider>();
-        collider.enabled = false;*/
+        collider.enabled = false;
 
     }
 }
