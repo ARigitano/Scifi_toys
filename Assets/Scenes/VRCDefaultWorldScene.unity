@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: a8a03f05dfdb9f74dad940767467ec27, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3c11ee6f677d55844b1b7a58bfad3604, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3322065, g: 0.3627174, b: 0.46474278, a: 1}
+  m_IndirectSpecularColor: {r: 0.0060393396, g: 0.005469398, b: 0.0045598103, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10351,7 +10351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.76
+      value: 0.7685
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10611,7 +10611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.78
+      value: -0.7855
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10619,7 +10619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.76
+      value: -0.7685
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20186,7 +20186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.78
+      value: -0.7855
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22074,7 +22074,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.76
+      value: -0.7685
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28267,7 +28267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.78
+      value: 0.7855
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.y
@@ -28275,7 +28275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.76
+      value: -0.7685
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalRotation.w
@@ -31660,7 +31660,7 @@ GameObject:
   - component: {fileID: 1128164050}
   - component: {fileID: 1128164049}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47073,7 +47073,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 30/12/2024 4h15
+  m_text: 10/01/25 15h17
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -57891,8 +57891,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 1, b: 0.88235295, a: 1}
+  m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -58560,7 +58560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.78
+      value: 0.7855
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.y
@@ -63537,7 +63537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.78
+      value: 0.7855
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.y
@@ -63545,7 +63545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.76
+      value: 0.7685
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalRotation.w
@@ -64505,7 +64505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.78
+      value: -0.7855
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.y
@@ -64513,7 +64513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.76
+      value: 0.7685
       objectReference: {fileID: 0}
     - target: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768, type: 3}
       propertyPath: m_LocalRotation.w
@@ -71282,35 +71282,33 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
-  - {fileID: 2100000, guid: 1c987494452b85f4ab4cac3322415907, type: 2}
-  - {fileID: 2100000, guid: 7cb448676d0c14844b946e9ea84f77cd, type: 2}
-  - {fileID: 2100000, guid: d7141515c3e72154d9d911edd5cf2538, type: 2}
   - {fileID: 2100000, guid: e951552e45e3e6244b7a614e5e7773c4, type: 2}
-  - {fileID: 2100000, guid: 1b91b8f78d66dbb4eae6920adadf1a3d, type: 2}
-  - {fileID: 2100000, guid: 6a22127092d3e80438705f102d03d98f, type: 2}
-  - {fileID: 2100000, guid: 833aaf2b11bfbc14096849492ed3d4e6, type: 2}
+  - {fileID: 2100000, guid: 1c987494452b85f4ab4cac3322415907, type: 2}
+  - {fileID: 2100000, guid: 8f16d771515996d42bc0affe42618f51, type: 2}
+  - {fileID: 2100000, guid: d72a7f1160ed65f4390a30c4fb7b65e3, type: 2}
+  - {fileID: 2100000, guid: 7cb448676d0c14844b946e9ea84f77cd, type: 2}
+  - {fileID: 2100000, guid: 5fe0aebe85b574b4a94e74712f0aa915, type: 2}
   - {fileID: 2100000, guid: c48ed0c67054fc24da0ac1cced5a308c, type: 2}
-  - {fileID: 2100000, guid: 66c05709e04ed42a3a537ad26aca9cb8, type: 2}
   - {fileID: 2100000, guid: 2a9bcab9060d28d468fc3c4d93775e7d, type: 2}
   - {fileID: 2100000, guid: ffce2a7e1519d465684f3f97da456fa9, type: 2}
+  - {fileID: 2100000, guid: 66c05709e04ed42a3a537ad26aca9cb8, type: 2}
   - {fileID: 2100000, guid: 11a8c080607cf47c299aff53087e0334, type: 2}
   - {fileID: 2100000, guid: 700ae469e5be9ac4095d29b97116027a, type: 2}
   - {fileID: 2100000, guid: 12ca79d1906ac624994fa91e85880fb8, type: 2}
   - {fileID: 2100000, guid: 48b31daa83ddb854fadd9402702394e4, type: 2}
-  - {fileID: 2100000, guid: 5fe0aebe85b574b4a94e74712f0aa915, type: 2}
-  - {fileID: 2100000, guid: 87ff71ffc286b91449d2296928632aed, type: 2}
-  - {fileID: 2100000, guid: f025c5db938b349a8b450e845b67e20a, type: 2}
-  - {fileID: 2100000, guid: 1f98a0149855cac4ab0875cf4645b043, type: 2}
+  - {fileID: 2100000, guid: 2356b9083cf422e4898415caa4abe0ce, type: 2}
+  - {fileID: 2100000, guid: 898d619440579f74db074145baf2b8bf, type: 2}
   - {fileID: 2100000, guid: d1c67a1ef08201d4dbff075a39fc0316, type: 2}
   - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   - {fileID: 2100000, guid: 00a2bb1196dce1b47850f5fd53254903, type: 2}
-  - {fileID: 2100000, guid: 579080bda9f89ee42a5447d6d997e266, type: 2}
-  - {fileID: 2100000, guid: 898d619440579f74db074145baf2b8bf, type: 2}
-  - {fileID: 2100000, guid: d72a7f1160ed65f4390a30c4fb7b65e3, type: 2}
-  - {fileID: 2100000, guid: 2356b9083cf422e4898415caa4abe0ce, type: 2}
-  - {fileID: 2100000, guid: 8f16d771515996d42bc0affe42618f51, type: 2}
   - {fileID: 2100000, guid: 88453bfb5a1cea94f983ff4410d6aa49, type: 2}
   - {fileID: 2100000, guid: fc99e40760b6af7419ce2533215cbbef, type: 2}
+  - {fileID: 2100000, guid: d7141515c3e72154d9d911edd5cf2538, type: 2}
+  - {fileID: 2100000, guid: 1b91b8f78d66dbb4eae6920adadf1a3d, type: 2}
+  - {fileID: 2100000, guid: 579080bda9f89ee42a5447d6d997e266, type: 2}
+  - {fileID: 2100000, guid: 1f98a0149855cac4ab0875cf4645b043, type: 2}
+  - {fileID: 2100000, guid: 6a22127092d3e80438705f102d03d98f, type: 2}
+  - {fileID: 2100000, guid: 833aaf2b11bfbc14096849492ed3d4e6, type: 2}
   - {fileID: 2100000, guid: d07dc9a550022a74792d211f343e0b16, type: 2}
   - {fileID: 2100000, guid: 0901bd31274b7c24a907731fa5e16f5f, type: 2}
   - {fileID: 2100000, guid: 4ea8e2de4ac6b564c98a36f67a2ad64f, type: 2}
@@ -71321,9 +71319,11 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f9c4a99059a34d842b70997d0245fde2, type: 2}
   - {fileID: 2100000, guid: 31b29cea830e0e24da72018652e5ed31, type: 2}
   - {fileID: 2100000, guid: 64a4684ba67ced04c811f6174e678a22, type: 2}
+  - {fileID: 2100000, guid: 87ff71ffc286b91449d2296928632aed, type: 2}
   - {fileID: 2100000, guid: 0de74cacf6310c64ca1b6862ba4b219c, type: 2}
   - {fileID: 2100000, guid: 6e3ac6e47b4d7a44685dfef9bf209413, type: 2}
   - {fileID: 2100000, guid: 40a353f6117398145a3e785d9854de93, type: 2}
+  - {fileID: 2100000, guid: f025c5db938b349a8b450e845b67e20a, type: 2}
   LightMapsNear: []
   LightMapsFar: []
   LightMode: 0
