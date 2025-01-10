@@ -27,6 +27,9 @@ public class Prop : UdonSharpBehaviour
     [SerializeField]
     private GameObject _carpetHighlight; //Highlight object that shows where to drop the prop.
 
+    [SerializeField]
+    private AudioSource _successSound; //The sound played when the prop is successfully placed on the carpet.
+
     public override void OnPickup()
     {
         base.OnPickup();
@@ -58,6 +61,7 @@ public class Prop : UdonSharpBehaviour
             if (_sizeManager != null && !_isScaleCounted)
             {
                 _sizeManager.ScaleWorldActivate();
+                _successSound.Play();
                 _isScaleCounted = true;
             }
 

@@ -26,6 +26,9 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     [SerializeField]
     private int _nbPropsActivate = 4; //Number of props that need to be put on snapping surface to activate the world scaler.
 
+    [SerializeField]
+    private AudioSource _shrinkingSound; //The sound for when the world changes size.
+
     private void Update()
     {
         if (_isScaling && !_hasScaled)
@@ -66,6 +69,7 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     public void ScaleWorld()
     {
         _isScaling = true;
+        _shrinkingSound.Play();
 
         /*if (!_hasScaled)
         {
