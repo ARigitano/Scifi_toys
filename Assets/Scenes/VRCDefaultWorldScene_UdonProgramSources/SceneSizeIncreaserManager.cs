@@ -21,6 +21,8 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     private Prop[] _propsEnvironement; //Props that need their environments to be activated.
     [SerializeField]
     private GameObject _tools; //The tools that will fall from the sky.
+    [SerializeField]
+    private GameObject _bigMirror; //The main mirror of the room.
 
     private int _nbProps = 0; //Number of props that have been put on snapping surface.
     [SerializeField]
@@ -69,6 +71,7 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     public void ScaleWorld()
     {
         _isScaling = true;
+        _bigMirror.SetActive(false);
         _shrinkingSound.Play();
 
         /*if (!_hasScaled)
