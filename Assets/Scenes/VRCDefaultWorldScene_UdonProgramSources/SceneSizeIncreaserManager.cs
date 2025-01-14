@@ -23,6 +23,8 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     private GameObject _tools; //The tools that will fall from the sky.
     [SerializeField]
     private GameObject _bigMirror; //The main mirror of the room.
+    [SerializeField]
+    private GameObject _snapArea; //The carpet area where buildings snap.
 
     private int _nbProps = 0; //Number of props that have been put on snapping surface.
     [SerializeField]
@@ -72,6 +74,7 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     {
         _isScaling = true;
         _bigMirror.SetActive(false);
+        _snapArea.SetActive(false);
         _shrinkingSound.Play();
 
         /*if (!_hasScaled)

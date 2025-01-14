@@ -1664,7 +1664,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 22
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7228997150393570135, guid: e20aa81e09765574ba0f047387a1bf43, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7194561865726850235, guid: e20aa81e09765574ba0f047387a1bf43,
@@ -2810,10 +2811,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1132845102}
-    - targetCorrespondingSourceObject: {fileID: 428432, guid: 2967b3e26a9a78742a19b54f9a7e6768,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1155946274}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 165206, guid: 2967b3e26a9a78742a19b54f9a7e6768,
         type: 3}
@@ -25675,7 +25672,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64451021739763336, guid: 1b9881425d8044af6ab15d52918af9ae, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4000011570384814, guid: 1b9881425d8044af6ab15d52918af9ae,
@@ -32035,7 +32033,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1155946274}
   m_Father: {fileID: 107156300}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1132845103
@@ -32824,12 +32823,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155946273}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.6125, y: 0.13206, z: 0.775}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 107156300}
+  m_Father: {fileID: 1132845102}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1155946275
 MeshRenderer:
@@ -53688,7 +53687,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64179243678827230, guid: 4e4ee1b42dc94464fa808ad7c2ea1130, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4503981456050516, guid: 4e4ee1b42dc94464fa808ad7c2ea1130,
@@ -57055,7 +57055,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9154356967170262847, guid: 1e49838fe0b84d245a861bdb9a1172bb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8683070191597461713, guid: 1e49838fe0b84d245a861bdb9a1172bb,
@@ -63933,6 +63934,7 @@ MonoBehaviour:
   - {fileID: 2039648606}
   _tools: {fileID: 1019938415}
   _bigMirror: {fileID: 1226821202}
+  _snapArea: {fileID: 1132845101}
   _nbPropsActivate: 5
   _shrinkingSound: {fileID: 1967958670}
 --- !u!82 &1967958670
@@ -71100,7 +71102,6 @@ GameObject:
   - component: {fileID: 472689496504704500}
   - component: {fileID: 472689496501837270}
   - component: {fileID: 472689496502935318}
-  - component: {fileID: 6784089490982384682}
   - component: {fileID: 6784089490982384684}
   - component: {fileID: 6784089490982384683}
   - component: {fileID: 6784089490982384687}
@@ -71310,28 +71311,6 @@ MonoBehaviour:
   contentType: 1
   assetBundleUnityVersion: 
   fallbackStatus: 0
---- !u!64 &6784089490982384682
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472689496505123284}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300104, guid: 259c90d442d45ec45b5dafe44a9bd2a4, type: 3}
 --- !u!114 &6784089490982384683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71631,9 +71610,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1c987494452b85f4ab4cac3322415907, type: 2}
   - {fileID: 2100000, guid: 8f16d771515996d42bc0affe42618f51, type: 2}
   - {fileID: 2100000, guid: e951552e45e3e6244b7a614e5e7773c4, type: 2}
-  - {fileID: 2100000, guid: 898d619440579f74db074145baf2b8bf, type: 2}
   - {fileID: 2100000, guid: 579080bda9f89ee42a5447d6d997e266, type: 2}
-  - {fileID: 2100000, guid: d72a7f1160ed65f4390a30c4fb7b65e3, type: 2}
   - {fileID: 2100000, guid: 6a22127092d3e80438705f102d03d98f, type: 2}
   - {fileID: 2100000, guid: 833aaf2b11bfbc14096849492ed3d4e6, type: 2}
   - {fileID: 2100000, guid: 66c05709e04ed42a3a537ad26aca9cb8, type: 2}
@@ -71644,6 +71621,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 12ca79d1906ac624994fa91e85880fb8, type: 2}
   - {fileID: 2100000, guid: 48b31daa83ddb854fadd9402702394e4, type: 2}
   - {fileID: 2100000, guid: 2356b9083cf422e4898415caa4abe0ce, type: 2}
+  - {fileID: 2100000, guid: d72a7f1160ed65f4390a30c4fb7b65e3, type: 2}
+  - {fileID: 2100000, guid: 898d619440579f74db074145baf2b8bf, type: 2}
   - {fileID: 2100000, guid: d1c67a1ef08201d4dbff075a39fc0316, type: 2}
   - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   - {fileID: 2100000, guid: 00a2bb1196dce1b47850f5fd53254903, type: 2}
@@ -71750,1301 +71729,1301 @@ MonoBehaviour:
     ID: 16
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1967958666}
+  - gameObject: {fileID: 1226821202}
     ID: 17
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 770498974}
+  - gameObject: {fileID: 1967958666}
     ID: 18
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 770498974}
+    ID: 19
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.Udon.UdonBehaviour
     - VRC.SDK3.Components.VRCObjectSync
+  - gameObject: {fileID: 2046197851}
+    ID: 20
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
   - gameObject: {fileID: 472689496505123284}
-    ID: 19
+    ID: 21
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
     - VRC.Udon.UdonBehaviour
   - gameObject: {fileID: 1128750792}
-    ID: 20
-    SerializedTypeNames:
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 993131155}
-    ID: 21
-    SerializedTypeNames:
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 743106609}
     ID: 22
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1889428110}
+  - gameObject: {fileID: 993131155}
     ID: 23
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1793219999}
+  - gameObject: {fileID: 743106609}
     ID: 24
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 11725761}
+  - gameObject: {fileID: 1889428110}
     ID: 25
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 820874419}
+  - gameObject: {fileID: 1793219999}
     ID: 26
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 176295068}
+  - gameObject: {fileID: 11725761}
     ID: 27
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 257731781}
+  - gameObject: {fileID: 820874419}
     ID: 28
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1348208226}
+  - gameObject: {fileID: 176295068}
     ID: 29
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 531934270}
+  - gameObject: {fileID: 257731781}
     ID: 30
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1762499295}
+  - gameObject: {fileID: 1348208226}
     ID: 31
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1885726530}
+  - gameObject: {fileID: 531934270}
     ID: 32
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 2052501029}
+  - gameObject: {fileID: 1762499295}
     ID: 33
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 993967466}
+  - gameObject: {fileID: 1885726530}
     ID: 34
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 1087297065}
+  - gameObject: {fileID: 2052501029}
     ID: 35
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 965473699}
+  - gameObject: {fileID: 993967466}
     ID: 36
     SerializedTypeNames:
-    - VRC.SDK3.Components.VRCPickup
     - VRC.Udon.UdonBehaviour
-    - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 648139358}
+  - gameObject: {fileID: 1087297065}
     ID: 37
     SerializedTypeNames:
-    - VRC.SDK3.Components.VRCPickup
     - VRC.Udon.UdonBehaviour
-    - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2039648603}
+  - gameObject: {fileID: 965473699}
     ID: 38
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.Udon.UdonBehaviour
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 245671796}
+  - gameObject: {fileID: 648139358}
     ID: 39
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
+    - VRC.Udon.UdonBehaviour
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1095083427}
+  - gameObject: {fileID: 215521561}
     ID: 40
     SerializedTypeNames:
-    - VRC.SDK3.Components.VRCPickup
-    - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1625461992}
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 2039648603}
     ID: 41
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
+    - VRC.Udon.UdonBehaviour
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 445000034}
+  - gameObject: {fileID: 245671796}
     ID: 42
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 206073035}
+  - gameObject: {fileID: 1095083427}
     ID: 43
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 276365067}
+  - gameObject: {fileID: 1625461992}
     ID: 44
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 911266333}
+  - gameObject: {fileID: 445000034}
     ID: 45
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 727804445}
+  - gameObject: {fileID: 206073035}
     ID: 46
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1679166223}
+  - gameObject: {fileID: 276365067}
     ID: 47
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 157678953}
+  - gameObject: {fileID: 911266333}
     ID: 48
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 207561760}
+  - gameObject: {fileID: 727804445}
     ID: 49
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1728306277}
+  - gameObject: {fileID: 1679166223}
     ID: 50
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 787677551}
+  - gameObject: {fileID: 157678953}
     ID: 51
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1585055858}
+  - gameObject: {fileID: 207561760}
     ID: 52
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 673739750}
+  - gameObject: {fileID: 1728306277}
     ID: 53
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1284179371}
+  - gameObject: {fileID: 787677551}
     ID: 54
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2009845163}
+  - gameObject: {fileID: 1585055858}
     ID: 55
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1933349423}
+  - gameObject: {fileID: 673739750}
     ID: 56
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1481370513}
+  - gameObject: {fileID: 1284179371}
     ID: 57
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 856755540}
+  - gameObject: {fileID: 2009845163}
     ID: 58
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2125993335}
+  - gameObject: {fileID: 1933349423}
     ID: 59
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 951338172}
+  - gameObject: {fileID: 1481370513}
     ID: 60
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1304368911}
+  - gameObject: {fileID: 856755540}
     ID: 61
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 874906906}
+  - gameObject: {fileID: 2125993335}
     ID: 62
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 40408129}
+  - gameObject: {fileID: 951338172}
     ID: 63
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1526989134}
+  - gameObject: {fileID: 1304368911}
     ID: 64
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 452995045}
+  - gameObject: {fileID: 874906906}
     ID: 65
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 761140369}
+  - gameObject: {fileID: 40408129}
     ID: 66
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 721560473}
+  - gameObject: {fileID: 1526989134}
     ID: 67
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 701309242}
+  - gameObject: {fileID: 452995045}
     ID: 68
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1434510151}
+  - gameObject: {fileID: 761140369}
     ID: 69
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2125461294}
+  - gameObject: {fileID: 721560473}
     ID: 70
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1035758039}
+  - gameObject: {fileID: 701309242}
     ID: 71
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 759632493}
+  - gameObject: {fileID: 1434510151}
     ID: 72
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1664681891}
+  - gameObject: {fileID: 2125461294}
     ID: 73
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1878313397}
+  - gameObject: {fileID: 1035758039}
     ID: 74
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1432658873}
+  - gameObject: {fileID: 759632493}
     ID: 75
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1655870171}
+  - gameObject: {fileID: 1664681891}
     ID: 76
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 977253521}
+  - gameObject: {fileID: 1878313397}
     ID: 77
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1928923770}
+  - gameObject: {fileID: 1432658873}
     ID: 78
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1792108257}
+  - gameObject: {fileID: 1655870171}
     ID: 79
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1264061362}
+  - gameObject: {fileID: 977253521}
     ID: 80
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 42925140}
+  - gameObject: {fileID: 1928923770}
     ID: 81
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1469808541}
+  - gameObject: {fileID: 1792108257}
     ID: 82
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1582300388}
+  - gameObject: {fileID: 1264061362}
     ID: 83
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 126225656}
+  - gameObject: {fileID: 42925140}
     ID: 84
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1303555305}
+  - gameObject: {fileID: 1469808541}
     ID: 85
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 528154266}
+  - gameObject: {fileID: 1582300388}
     ID: 86
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 510491902}
+  - gameObject: {fileID: 126225656}
     ID: 87
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1086408672}
+  - gameObject: {fileID: 1303555305}
     ID: 88
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 353066655}
+  - gameObject: {fileID: 528154266}
     ID: 89
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1253636678}
+  - gameObject: {fileID: 510491902}
     ID: 90
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1642267731}
+  - gameObject: {fileID: 1086408672}
     ID: 91
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1796628772}
+  - gameObject: {fileID: 353066655}
     ID: 92
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1847994719}
+  - gameObject: {fileID: 1253636678}
     ID: 93
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1272798060}
+  - gameObject: {fileID: 1642267731}
     ID: 94
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 832135402}
+  - gameObject: {fileID: 1796628772}
     ID: 95
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2042490028}
+  - gameObject: {fileID: 1847994719}
     ID: 96
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2016930992}
+  - gameObject: {fileID: 1272798060}
     ID: 97
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1738781622}
+  - gameObject: {fileID: 832135402}
     ID: 98
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 649084821}
+  - gameObject: {fileID: 2042490028}
     ID: 99
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1253952580}
+  - gameObject: {fileID: 2016930992}
     ID: 100
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1329962749}
+  - gameObject: {fileID: 1738781622}
     ID: 101
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1416242361}
+  - gameObject: {fileID: 649084821}
     ID: 102
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 58586013}
+  - gameObject: {fileID: 1253952580}
     ID: 103
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 40102381}
+  - gameObject: {fileID: 1329962749}
     ID: 104
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1481833797}
+  - gameObject: {fileID: 1416242361}
     ID: 105
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1385685299}
+  - gameObject: {fileID: 58586013}
     ID: 106
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 856101201}
+  - gameObject: {fileID: 40102381}
     ID: 107
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 877511894}
+  - gameObject: {fileID: 1481833797}
     ID: 108
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1345352148}
+  - gameObject: {fileID: 1385685299}
     ID: 109
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1114315785}
+  - gameObject: {fileID: 856101201}
     ID: 110
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1740902348}
+  - gameObject: {fileID: 877511894}
     ID: 111
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 684320324}
+  - gameObject: {fileID: 1345352148}
     ID: 112
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1949093052}
+  - gameObject: {fileID: 1114315785}
     ID: 113
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1082240874}
+  - gameObject: {fileID: 1740902348}
     ID: 114
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1763853550}
+  - gameObject: {fileID: 684320324}
     ID: 115
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 394111140}
+  - gameObject: {fileID: 1949093052}
     ID: 116
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1386083004}
+  - gameObject: {fileID: 1082240874}
     ID: 117
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1240206540}
+  - gameObject: {fileID: 1763853550}
     ID: 118
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 718970730}
+  - gameObject: {fileID: 394111140}
     ID: 119
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 629937454}
+  - gameObject: {fileID: 1386083004}
     ID: 120
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 520133968}
+  - gameObject: {fileID: 1240206540}
     ID: 121
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 583541678}
+  - gameObject: {fileID: 718970730}
     ID: 122
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 232806194}
+  - gameObject: {fileID: 629937454}
     ID: 123
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1963855463}
+  - gameObject: {fileID: 520133968}
     ID: 124
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 148008141}
+  - gameObject: {fileID: 583541678}
     ID: 125
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 620656604}
+  - gameObject: {fileID: 232806194}
     ID: 126
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1391758909}
+  - gameObject: {fileID: 1963855463}
     ID: 127
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1270272754}
+  - gameObject: {fileID: 148008141}
     ID: 128
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 455595432}
+  - gameObject: {fileID: 620656604}
     ID: 129
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1979139759}
+  - gameObject: {fileID: 1391758909}
     ID: 130
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1288838496}
+  - gameObject: {fileID: 1270272754}
     ID: 131
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1326714382}
+  - gameObject: {fileID: 455595432}
     ID: 132
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2032333722}
+  - gameObject: {fileID: 1979139759}
     ID: 133
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1729869235}
+  - gameObject: {fileID: 1288838496}
     ID: 134
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1762303992}
+  - gameObject: {fileID: 1326714382}
     ID: 135
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 613507794}
+  - gameObject: {fileID: 2032333722}
     ID: 136
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 103647117}
+  - gameObject: {fileID: 1729869235}
     ID: 137
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1205414098}
+  - gameObject: {fileID: 1762303992}
     ID: 138
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1571591707}
+  - gameObject: {fileID: 613507794}
     ID: 139
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1509644227}
+  - gameObject: {fileID: 103647117}
     ID: 140
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 93741762}
+  - gameObject: {fileID: 1205414098}
     ID: 141
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1317881072}
+  - gameObject: {fileID: 1571591707}
     ID: 142
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1192782206}
+  - gameObject: {fileID: 1509644227}
     ID: 143
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 426416023}
+  - gameObject: {fileID: 93741762}
     ID: 144
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 151348081}
+  - gameObject: {fileID: 1317881072}
     ID: 145
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1612980790}
+  - gameObject: {fileID: 1192782206}
     ID: 146
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2049218873}
+  - gameObject: {fileID: 426416023}
     ID: 147
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1596586716}
+  - gameObject: {fileID: 151348081}
     ID: 148
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2086839638}
+  - gameObject: {fileID: 1612980790}
     ID: 149
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1386808933}
+  - gameObject: {fileID: 2049218873}
     ID: 150
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1462653136}
+  - gameObject: {fileID: 1596586716}
     ID: 151
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1236093118}
+  - gameObject: {fileID: 2086839638}
     ID: 152
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 771755194}
+  - gameObject: {fileID: 1386808933}
     ID: 153
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 880164510}
+  - gameObject: {fileID: 1462653136}
     ID: 154
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1136370887}
+  - gameObject: {fileID: 1236093118}
     ID: 155
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1691378527}
+  - gameObject: {fileID: 771755194}
     ID: 156
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1084971234}
+  - gameObject: {fileID: 880164510}
     ID: 157
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 603621398}
+  - gameObject: {fileID: 1136370887}
     ID: 158
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1754533646}
+  - gameObject: {fileID: 1691378527}
     ID: 159
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1588327454}
+  - gameObject: {fileID: 1084971234}
     ID: 160
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1271564330}
+  - gameObject: {fileID: 603621398}
     ID: 161
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 61968675}
+  - gameObject: {fileID: 1754533646}
     ID: 162
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 381946284}
+  - gameObject: {fileID: 1588327454}
     ID: 163
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1005262621}
+  - gameObject: {fileID: 1271564330}
     ID: 164
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1566034420}
+  - gameObject: {fileID: 61968675}
     ID: 165
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 639803919}
+  - gameObject: {fileID: 381946284}
     ID: 166
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1015518581}
+  - gameObject: {fileID: 1005262621}
     ID: 167
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1629552476}
+  - gameObject: {fileID: 1566034420}
     ID: 168
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2043985079}
+  - gameObject: {fileID: 639803919}
     ID: 169
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 799842204}
+  - gameObject: {fileID: 1015518581}
     ID: 170
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 961939780}
+  - gameObject: {fileID: 1629552476}
     ID: 171
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 502554827}
+  - gameObject: {fileID: 2043985079}
     ID: 172
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 929839190}
+  - gameObject: {fileID: 799842204}
     ID: 173
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 381683087}
+  - gameObject: {fileID: 961939780}
     ID: 174
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 77861965}
+  - gameObject: {fileID: 502554827}
     ID: 175
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 508992652}
+  - gameObject: {fileID: 929839190}
     ID: 176
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1146923571}
+  - gameObject: {fileID: 381683087}
     ID: 177
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1292631969}
+  - gameObject: {fileID: 77861965}
     ID: 178
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1006806470}
+  - gameObject: {fileID: 508992652}
     ID: 179
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2112761738}
+  - gameObject: {fileID: 1146923571}
     ID: 180
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1883826243}
+  - gameObject: {fileID: 1292631969}
     ID: 181
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1505809579}
+  - gameObject: {fileID: 1006806470}
     ID: 182
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 514580697}
+  - gameObject: {fileID: 2112761738}
     ID: 183
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 81322263}
+  - gameObject: {fileID: 1883826243}
     ID: 184
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 688340375}
+  - gameObject: {fileID: 1505809579}
     ID: 185
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 737982864}
+  - gameObject: {fileID: 514580697}
     ID: 186
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1673566415}
+  - gameObject: {fileID: 81322263}
     ID: 187
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1584296843}
+  - gameObject: {fileID: 688340375}
     ID: 188
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 125023096}
+  - gameObject: {fileID: 737982864}
     ID: 189
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1797668570}
+  - gameObject: {fileID: 1673566415}
     ID: 190
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1426823841}
+  - gameObject: {fileID: 1584296843}
     ID: 191
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1325442649}
+  - gameObject: {fileID: 125023096}
     ID: 192
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2058539375}
+  - gameObject: {fileID: 1797668570}
     ID: 193
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 58412632}
+  - gameObject: {fileID: 1426823841}
     ID: 194
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 736361260}
+  - gameObject: {fileID: 1325442649}
     ID: 195
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1080044269}
+  - gameObject: {fileID: 2058539375}
     ID: 196
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1712694529}
+  - gameObject: {fileID: 58412632}
     ID: 197
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 774950936}
+  - gameObject: {fileID: 736361260}
     ID: 198
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1123738060}
+  - gameObject: {fileID: 1080044269}
     ID: 199
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1680184005}
+  - gameObject: {fileID: 1712694529}
     ID: 200
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1031078589}
+  - gameObject: {fileID: 774950936}
     ID: 201
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 167486005}
+  - gameObject: {fileID: 1123738060}
     ID: 202
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1208864411}
+  - gameObject: {fileID: 1680184005}
     ID: 203
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1653716485}
+  - gameObject: {fileID: 1031078589}
     ID: 204
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 959264284}
+  - gameObject: {fileID: 167486005}
     ID: 205
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1782596689}
+  - gameObject: {fileID: 1208864411}
     ID: 206
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1892779286}
+  - gameObject: {fileID: 1653716485}
     ID: 207
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 925648464}
+  - gameObject: {fileID: 959264284}
     ID: 208
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 220281425}
+  - gameObject: {fileID: 1782596689}
     ID: 209
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1292791833}
+  - gameObject: {fileID: 1892779286}
     ID: 210
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 315155875}
+  - gameObject: {fileID: 925648464}
     ID: 211
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 695733649}
+  - gameObject: {fileID: 220281425}
     ID: 212
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1172905464}
+  - gameObject: {fileID: 1292791833}
     ID: 213
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 414001971}
+  - gameObject: {fileID: 315155875}
     ID: 214
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 555833899}
+  - gameObject: {fileID: 695733649}
     ID: 215
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 381912962}
+  - gameObject: {fileID: 1172905464}
     ID: 216
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1031215199}
+  - gameObject: {fileID: 414001971}
     ID: 217
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1374934911}
+  - gameObject: {fileID: 555833899}
     ID: 218
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 633492219}
+  - gameObject: {fileID: 381912962}
     ID: 219
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 563941471}
+  - gameObject: {fileID: 1031215199}
     ID: 220
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 264978787}
+  - gameObject: {fileID: 1374934911}
     ID: 221
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1052179813}
+  - gameObject: {fileID: 633492219}
     ID: 222
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1724067277}
+  - gameObject: {fileID: 563941471}
     ID: 223
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1954238589}
+  - gameObject: {fileID: 264978787}
     ID: 224
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1765632144}
+  - gameObject: {fileID: 1052179813}
     ID: 225
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 834615662}
+  - gameObject: {fileID: 1724067277}
     ID: 226
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2080908154}
+  - gameObject: {fileID: 1954238589}
     ID: 227
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 125174350}
+  - gameObject: {fileID: 1765632144}
     ID: 228
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2108997076}
+  - gameObject: {fileID: 834615662}
     ID: 229
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1374110188}
+  - gameObject: {fileID: 2080908154}
     ID: 230
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 64270574}
+  - gameObject: {fileID: 125174350}
     ID: 231
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1417911762}
+  - gameObject: {fileID: 2108997076}
     ID: 232
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1685285755}
+  - gameObject: {fileID: 1374110188}
     ID: 233
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1155711096}
+  - gameObject: {fileID: 64270574}
     ID: 234
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 223573335}
+  - gameObject: {fileID: 1417911762}
     ID: 235
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1587796383}
+  - gameObject: {fileID: 1685285755}
     ID: 236
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 9344579}
+  - gameObject: {fileID: 1155711096}
     ID: 237
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1798821647}
+  - gameObject: {fileID: 223573335}
     ID: 238
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1300481048}
+  - gameObject: {fileID: 1587796383}
     ID: 239
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 188756477}
+  - gameObject: {fileID: 9344579}
     ID: 240
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 143474581}
+  - gameObject: {fileID: 1798821647}
     ID: 241
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1799200272}
+  - gameObject: {fileID: 1300481048}
     ID: 242
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 138866309}
+  - gameObject: {fileID: 188756477}
     ID: 243
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1002901800}
+  - gameObject: {fileID: 143474581}
     ID: 244
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 613828822}
+  - gameObject: {fileID: 1799200272}
     ID: 245
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1909523028}
+  - gameObject: {fileID: 138866309}
     ID: 246
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1629285271}
+  - gameObject: {fileID: 1002901800}
     ID: 247
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1965956804}
+  - gameObject: {fileID: 613828822}
     ID: 248
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1545680510}
+  - gameObject: {fileID: 1909523028}
     ID: 249
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1268476104}
+  - gameObject: {fileID: 1629285271}
     ID: 250
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2118021794}
+  - gameObject: {fileID: 1965956804}
     ID: 251
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 882091590}
+  - gameObject: {fileID: 1545680510}
     ID: 252
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1223818172}
+  - gameObject: {fileID: 1268476104}
     ID: 253
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1589106756}
+  - gameObject: {fileID: 2118021794}
     ID: 254
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 655211859}
+  - gameObject: {fileID: 882091590}
     ID: 255
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 558607038}
+  - gameObject: {fileID: 1223818172}
     ID: 256
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1540400225}
+  - gameObject: {fileID: 1589106756}
     ID: 257
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1990442548}
+  - gameObject: {fileID: 655211859}
     ID: 258
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 957607983}
+  - gameObject: {fileID: 558607038}
     ID: 259
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 880035373}
+  - gameObject: {fileID: 1540400225}
     ID: 260
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1305215579}
+  - gameObject: {fileID: 1990442548}
     ID: 261
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1348257425}
+  - gameObject: {fileID: 957607983}
     ID: 262
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1906239616}
+  - gameObject: {fileID: 880035373}
     ID: 263
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1486576320}
+  - gameObject: {fileID: 1305215579}
     ID: 264
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1409662389}
+  - gameObject: {fileID: 1348257425}
     ID: 265
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1664633697}
+  - gameObject: {fileID: 1906239616}
     ID: 266
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1756923649}
+  - gameObject: {fileID: 1486576320}
     ID: 267
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 2055311280}
+  - gameObject: {fileID: 1409662389}
     ID: 268
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1827583671}
+  - gameObject: {fileID: 1664633697}
     ID: 269
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 750910865}
+  - gameObject: {fileID: 1756923649}
     ID: 270
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1477006429}
+  - gameObject: {fileID: 2055311280}
     ID: 271
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 352044803}
+  - gameObject: {fileID: 1827583671}
     ID: 272
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 855140424}
+  - gameObject: {fileID: 750910865}
     ID: 273
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1423788987}
+  - gameObject: {fileID: 1477006429}
     ID: 274
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1906533041}
+  - gameObject: {fileID: 352044803}
     ID: 275
     SerializedTypeNames:
     - VRC.SDK3.Components.VRCPickup
     - VRC.SDK3.Components.VRCObjectSync
-  - gameObject: {fileID: 1226821202}
+  - gameObject: {fileID: 855140424}
     ID: 276
     SerializedTypeNames:
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 2046197851}
+    - VRC.SDK3.Components.VRCPickup
+    - VRC.SDK3.Components.VRCObjectSync
+  - gameObject: {fileID: 1423788987}
     ID: 277
     SerializedTypeNames:
-    - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 215521561}
+    - VRC.SDK3.Components.VRCPickup
+    - VRC.SDK3.Components.VRCObjectSync
+  - gameObject: {fileID: 1906533041}
     ID: 278
     SerializedTypeNames:
-    - VRC.Udon.UdonBehaviour
+    - VRC.SDK3.Components.VRCPickup
+    - VRC.SDK3.Components.VRCObjectSync
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   NavigationAreas: []

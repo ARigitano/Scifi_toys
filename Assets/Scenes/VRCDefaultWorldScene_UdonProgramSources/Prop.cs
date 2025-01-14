@@ -6,8 +6,6 @@ using VRC.SDKBase;
 using VRC.Udon;
 using VRC.Udon.Common;
 
-[RequireComponent(typeof(VRCPickup))]
-[RequireComponent(typeof(Rigidbody))]
 public class Prop : UdonSharpBehaviour
 {
     private bool _isDropped = false; //Has the prop been dropped after having been picked up?
@@ -64,8 +62,6 @@ public class Prop : UdonSharpBehaviour
                 _successSound.Play();
                 _isScaleCounted = true;
             }
-
-            //_pickup.enabled = false; Causes a bug for now
         }
     }
 
@@ -78,15 +74,17 @@ public class Prop : UdonSharpBehaviour
         }
 
         VRCPickup pickup = this.gameObject.GetComponent<VRCPickup>();
-        pickup.pickupable = false;
+        Destroy(pickup);
 
         _base.SetActive(true);
 
         Rigidbody rb = this.gameObject.GetComponent<Rigidbody>();
-        rb.isKinematic = true;
+        Destroy(rb);
+        //rb.isKinematic = true;
 
         BoxCollider collider = this.gameObject.GetComponent<BoxCollider>();
-        collider.enabled = false;
+        Destroy(collider);
+        //collider.enabled = false;
 
     }
 }
