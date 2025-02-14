@@ -26,7 +26,7 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     [SerializeField]
     private GameObject _snapArea; //The carpet area where buildings snap.
 
-    private int _nbProps = 0; //Number of props that have been put on snapping surface.
+    public int nbProps = 0; //Number of props that have been put on snapping surface.
     [SerializeField]
     private int _nbPropsActivate = 4; //Number of props that need to be put on snapping surface to activate the world scaler.
 
@@ -61,9 +61,9 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     //Activates the world scaling
     public void ScaleWorldActivate()
     {
-        _nbProps++;
+        nbProps++;
 
-        if (_nbProps >= _nbPropsActivate)
+        if (nbProps >= _nbPropsActivate)
         {
             SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, "ScaleWorld");
         }
