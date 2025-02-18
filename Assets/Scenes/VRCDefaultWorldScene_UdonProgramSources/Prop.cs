@@ -72,7 +72,6 @@ public class Prop : UdonSharpBehaviour
     {
         _sizeManager.ScaleWorldActivate();
 
-        //A mettre coté SceneSizeIncreaseManager?
         _successSound.Play();
         _textTableNb.text = _sizeManager.nbProps.ToString() + "/5";
         _isScaleCounted = true;
@@ -98,6 +97,5 @@ public class Prop : UdonSharpBehaviour
         BoxCollider collider = this.gameObject.GetComponent<BoxCollider>();
         Destroy(collider);
         //collider.enabled = false;
-
     }
 }

@@ -28,6 +28,7 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     [SerializeField]
     private GameObject _snapArea; //The carpet area where buildings snap.
 
+    [UdonSynced]
     public int nbProps = 0; //Number of props that have been put on snapping surface.
     [SerializeField]
     private int _nbPropsActivate = 4; //Number of props that need to be put on snapping surface to activate the world scaler.
