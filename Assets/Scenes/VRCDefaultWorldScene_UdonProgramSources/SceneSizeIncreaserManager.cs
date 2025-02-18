@@ -3,6 +3,7 @@ using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
+using TMPro;
 
 public class SceneSizeIncreaserManager : UdonSharpBehaviour
 {
@@ -29,12 +30,20 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     private GameObject _snapArea; //The carpet area where buildings snap.
 
     [UdonSynced]
-    public int nbProps = 0; //Number of props that have been put on snapping surface.
+    private int _nbProps = 0; //Number of props that have been put on snapping surface.
     [SerializeField]
     private int _nbPropsActivate = 4; //Number of props that need to be put on snapping surface to activate the world scaler.
 
     [SerializeField]
     private AudioSource _shrinkingSound; //The sound for when the world changes size.
+
+    [SerializeField]
+    private TextMeshPro _textTableNb; //The text that shows the number of building that have been placed.
+
+    public override void OnPlayerJoined(VRCPlayerApi player)
+    {
+        ScaleWorld();
+    }
 
     private void Update()
     {
@@ -64,22 +73,24 @@ public class SceneSizeIncreaserManager : UdonSharpBehaviour
     //Activates the world scaling
     public void ScaleWorldActivate()
     {
-        nbProps++;
+        _nbProps++;
 
-        if (nbProps >= _nbPropsActivate)
-        {
-            SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, "ScaleWorld");
-        }
+        SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, "ScaleWorld");
     }
 
     //Makes the world giant when picked up
     public void ScaleWorld()
     {
-        _isScaling = true;
-        _bigMirror.SetActive(false);
-        _tableText.SetActive(false);
-        _snapArea.SetActive(false);
-        _shrinkingSound.Play();
+        _textTableNb.text = _nbProps.ToString() + "/5";
+
+        if (_nbProps >= _nbPropsActivate)
+        {
+            _isScaling = true;
+            _bigMirror.SetActive(false);
+            _tableText.SetActive(false);
+            _snapArea.SetActive(false);
+            _shrinkingSound.Play();
+        }
 
         /*if (!_hasScaled)
         {

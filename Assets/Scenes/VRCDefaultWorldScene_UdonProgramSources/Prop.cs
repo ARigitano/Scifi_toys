@@ -5,7 +5,6 @@ using VRC.SDK3.Components;
 using VRC.SDKBase;
 using VRC.Udon;
 using VRC.Udon.Common;
-using TMPro;
 
 public class Prop : UdonSharpBehaviour
 {
@@ -28,9 +27,6 @@ public class Prop : UdonSharpBehaviour
 
     [SerializeField]
     private AudioSource _successSound; //The sound played when the prop is successfully placed on the carpet.
-
-    [SerializeField]
-    private TextMeshPro _textTableNb; //The text that shows the number of building that have been placed.
 
     public override void OnPickup()
     {
@@ -73,7 +69,7 @@ public class Prop : UdonSharpBehaviour
         _sizeManager.ScaleWorldActivate();
 
         _successSound.Play();
-        _textTableNb.text = _sizeManager.nbProps.ToString() + "/5";
+        
         _isScaleCounted = true;
     }
 
